@@ -1,0 +1,170 @@
+*{
+    font-family: 'poppins' sans-serif;
+}
+.navbar{
+ display:flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: rgb(213, 226, 231);
+ top:0;
+ padding-right:20px;
+ margin: 0px;
+
+ width:100%;
+}
+.two{
+    display:flex;
+    column-gap: 20px;
+}
+.input1{
+    display:flex;
+    column-gap:30px;
+    justify-content: center;
+    padding-top:70px;
+}
+.task{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:800px;
+}
+.comp{
+    display:flex;
+    justify-content: center;
+    column-gap: 40px;
+    align-items: center;
+}
+.twotask{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:350px;
+    padding-left:20px;
+    padding-right: 20px;
+
+}
+.threetask{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:350px;
+    padding-left:20px;
+    padding-right: 20px;
+
+
+}
+.last{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:800px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+   
+}
+
+li {
+    margin: 10px 0;
+    padding:0px;
+    font-family: 'poppins' sans-serif;
+  
+    
+}
+ 
+
+.task-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor:pointer;
+}
+.completed-task{
+    display:flex;
+    justify-content: center;
+    column-gap:20px;
+    align-items: center;
+}
+.second{
+   align-items: center;
+    font-family: 'poppins' sans-serif;
+    column-gap: 20px;
+    padding:10px;
+}
+#ipo{
+    width:600px;
+    display:none;
+    padding:10px;
+     margin-top:40px;
+     border-radius:10px;
+}
+@media screen and (max-width:600px) {
+    .task{
+        text-align: center;
+        margin-top:40px;
+        margin-left:20px;
+        border:2px solid black;
+        width:400px;
+    }
+    .input1{
+        display:flex;
+        column-gap:15px;
+        justify-content: center;
+        padding-top:70px;
+    }
+    .taskInput{
+        width:150px;
+        padding:5px;
+    }
+    .taskdate{
+        width:150px;
+        padding:5px;
+
+    }
+    .comp{
+        display:flex;
+    justify-content: center;
+    column-gap: 20px;
+    align-items: center;
+}
+.twotask{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:240px;
+    padding-left:10px;
+    padding-right: 10px;
+
+}
+.threetask{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:240px;
+    padding-left:10px;
+    padding-right: 10px;
+
+
+}
+.last{
+    text-align: center;
+    margin-top:40px;
+    border:2px solid black;
+    width:400px;
+}
+.ip #ipo{
+    width:300px;
+    padding:10px;
+
+}
+ }
+
+    

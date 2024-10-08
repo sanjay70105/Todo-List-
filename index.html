@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Assessment</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="todo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+   
+    <script src="query.js"></script>
+    
+</head>
+<body>
+    <div class="navbar">
+        <div class="one">
+            <h1><i class="fa-solid fa-list"></i>  To-Do<h1>
+           
+        </div>
+        <div class="two">
+            <h1 id="squ" style="cursor: pointer;"><i class="fa-solid fa-square-plus"></i></h1>
+            <h1 style="cursor: pointer;" id="reset"><i class="fa-solid fa-recycle"></i></h1>
+            <h1 id="glass"style="cursor: pointer;"><i class="fa-solid fa-magnifying-glass"></i></h1>
+            
+
+        </div>
+        </div>
+        <center>
+        <div class="ip">
+            <input type="text" id="ipo" placeholder="search">
+        </div>
+    </center>
+        <div class="search">
+            <div class="input1" style="cursor:pointer">
+                <input type="text" style="width:300px;padding:8px;" placeholder="task name" id="taskInput">
+                <input type="date" style="width:300px;padding:8px;" id="taskdate">
+               <h3><i class="fa-solid fa-check" id="check"></i></h3>
+               <h3><i class="fa-solid fa-eraser" id="erase"></i></h3>
+            </div>
+        </div>
+        <center>
+        <div class="task">
+            <h1><i class="fa-solid fa-list"></i> Task List</h1>
+            <ul id="list">
+
+            </ul>
+        </div>
+    </center>
+   
+    <div class="comp">
+        <div class="twotask">
+            <h1><i class="fa-solid fa-check"></i> Completed Task</h1>
+            <ul class="complete" >
+
+            </ul>
+        </div>
+        <div class="threetask">
+            <h1><i class="fa-solid fa-clock"></i> Old task</h1>
+            <ul class="tree">
+
+            </ul>
+        </div>
+    </div>
+    <center>
+    <div class="last">
+        <div class="lastone">
+            <h1><i class="fa-solid fa-battery-full"></i> Progress Bar</h1>
+            <p>You have completed <span id="res">0%</span></p>
+        </div>
+    </div>
+</center>
+
+    
+    <script src="index.js"></script>
+</body>
+</html>
